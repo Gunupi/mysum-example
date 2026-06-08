@@ -8,6 +8,7 @@ def my_sum(numbers):
     if not all(isinstance(n, (int, float)) for n in numbers):
         return None
     total = 0
+    # This is a for loop
     for n in numbers:
         total += n
     return total
